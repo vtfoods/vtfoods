@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.top-nav-list:hover {
+  background-color: #ffffff00 !important;
+}
+
+@media (max-width: 480px) {
+  .career_bedge {
+    display: flex !important;
+  }
+  .modal_career {
+    top: 200% !important;
+    margin: 15px 0 !important;
+  }
+}
+
+.container {
+  height: 60px;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  .container {
+    height: 90px;
+  }
+  .wrapper .item {
+    font-size: 32px !important;
+    line-height: 3rem !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    height: 65px;
+  }
+  .wrapper .item {
+    font-size: 28px !important;
+    line-height: 3rem !important;
+  }
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.wrapper .item {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 4rem;
+  color: #584a91;
+}
+.swiper-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.service-card:hover .service-card-image {
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.loader {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.loader:before,
+.loader:after {
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  inset: 0;
+  box-shadow: 1px 1px 2px 0px rgb(142 127 206) inset;
+}
+.loader:after {
+  box-shadow: 0 2px 0 rgb(255, 206, 206) inset;
+  animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.offshore-form .PhoneInputInput:focus-visible{
+  outline: unset !important
+}
