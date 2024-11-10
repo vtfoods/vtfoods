@@ -92,7 +92,7 @@ const HeroSection = () => {
                   lineHeight: 1.5,
                 }}
               >
-                Software Development Company {""}
+                Manufacturer & Exporter of{""}
                 <Box
                   className="App"
                   sx={{
@@ -114,8 +114,7 @@ const HeroSection = () => {
               color="inherit"
               sx={{ my: 2, textAlign: "center", fontSize: "22px" }}
             >
-              Through innovation and technology, <br /> We empower you to
-              change the world with your ideas.
+              We are a leading manufacturer and exporter of a wide range of dehydrated products including spices, pulses, grains, and more. Our products are sourced from the best farms and processed in our state-of-the-art facilities to ensure the highest quality and freshness.
             </Typography>
             <Stack
               alignItems="center"
@@ -137,7 +136,7 @@ const HeroSection = () => {
                   }}
                   
                 >
-                  Contact Now
+                  Products
                 </Button>
               </Link>
             </Stack>

@@ -24,7 +24,7 @@ const webAppData = {
   title: "Life @ HVG Private Limited",
   img: "/assets/hvg-life-image.png",
   desc: [
-    "Get a glimpse into our vibrant culture, where innovation meets collaboration. At HVG Infotech Private Limited, we're passionate about building a workplace that' inclusive, dynamic, and fun. Explore our team' stories, values, and perks that make us a great place to work.",
+    "Get a glimpse into our vibrant culture, where innovation meets collaboration. At VT Foods Private Limited, we're passionate about building a workplace that' inclusive, dynamic, and fun. Explore our team' stories, values, and perks that make us a great place to work.",
     "We believe in the power of teamwork and understand that the collective strength of our members drives our success. Our website showcases the talent, skills, and passion that each team member brings to the table. We foster a collaborative and inclusive environment where ideas are shared, perspectives are valued, and excellence is encouraged. Our team members work closely together, leveraging their unique strengths and knowledge to deliver outstanding outcomes for our clients.",
   ],
 };

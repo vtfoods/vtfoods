@@ -227,7 +227,7 @@ export const Footer = (props) => (
             >
               <Box>
                 <img
-                  alt="HVG Infotech PVT LTD Logo"
+                  alt="VT Foods PVT LTD Logo"
                   src="/assets/Logohvg.png"
                   style={{ maxHeight: "100%", maxWidth: "40%" }}
                 />

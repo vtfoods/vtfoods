@@ -18,7 +18,7 @@ export const review = [ {
     title: "Completed Successfully!",
     rating: 5,
     review:
-      "The quality of your work, coupled with your positive attitude and willingness to make valuable suggestions, has truly impressed the entire team. Your good gestures have created a collaborative and enjoyable working environment. Thank you for your commitment to excellence and for being an integral part of the HVG Infotech Private Limited team. We look forward to continuing our successful collaboration in the future.",
+      "The quality of your work, coupled with your positive attitude and willingness to make valuable suggestions, has truly impressed the entire team. Your good gestures have created a collaborative and enjoyable working environment. Thank you for your commitment to excellence and for being an integral part of the VT Foods Private Limited team. We look forward to continuing our successful collaboration in the future.",
     clientName: "Lucas Lindes",
     clientImage: "/assets/upwork.png",
   },
@@ -66,7 +66,7 @@ export const review = [ {
     title: "Completed Successfully!",
     rating: 5,
     review:
-      "I wanted to take a moment to acknowledge and commend you for your exceptional work on the recent project. Your dedication, hard work, and commitment to excellence have not gone unnoticed, and I believe it's essential to recognize your outstanding performance.I would also like to extend our appreciation to HVG Infotech Private Limited for fostering an environment that encourages employees like Umang to excel. Thank you for your dedication and hard work.",
+      "I wanted to take a moment to acknowledge and commend you for your exceptional work on the recent project. Your dedication, hard work, and commitment to excellence have not gone unnoticed, and I believe it's essential to recognize your outstanding performance.I would also like to extend our appreciation to VT Foods Private Limited for fostering an environment that encourages employees like Umang to excel. Thank you for your dedication and hard work.",
     clientName: "Jessie Hazelrigg",
     clientImage: "/assets/upwork.png",
   },
@@ -74,7 +74,7 @@ export const review = [ {
     title: "Completed Successfully!",
     rating: 5,
     review:
-      "The team HVG Infotech Private Limited were fantastic at delivering a complex product in a timely manner. They were very communicative throughout the whole process and ensured their development work was aligned with our expectations. Very open and receptive to feedback, and accommodative to our requests. Umang was a great point of contact who took full charge of relaying our feedback and instructions to the appointed developers in his team so we didn't have to worry about logistics. Great experience - thanks team!",
+      "The team VT Foods Private Limited were fantastic at delivering a complex product in a timely manner. They were very communicative throughout the whole process and ensured their development work was aligned with our expectations. Very open and receptive to feedback, and accommodative to our requests. Umang was a great point of contact who took full charge of relaying our feedback and instructions to the appointed developers in his team so we didn't have to worry about logistics. Great experience - thanks team!",
     clientName: "Maximilian Marx",
     clientImage: "/assets/upwork.png",
   },]

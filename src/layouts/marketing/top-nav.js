@@ -125,7 +125,7 @@ export const TopNav = (props) => {
         maxWidth: "xl",
         mx: "auto",
         zIndex: (theme) => theme.zIndex.appBar,
-        backdropFilter: "blur(6px)",
+        // backdropFilter: "blur(6px)",
         backgroundColor: "transparent",
         borderRadius: "0 0 20px 20px",
         boxShadow: "none",
@@ -170,9 +170,9 @@ export const TopNav = (props) => {
             >
               <Box>
                 <img
-                  alt="HVG Infotech PVT LTD Logo"
-                  src="/assets/Logohvg.png"
-                  style={{ height: "64px", width: 'auto' }}
+                  alt="VT Foods PVT LTD Logo"
+                  src="/assets/VT-logo.png"
+                  style={{ height: "50px", width: 'auto', margin: "5px" }}
                 />
               </Box>
             </Stack>

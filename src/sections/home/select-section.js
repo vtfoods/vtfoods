@@ -59,7 +59,7 @@ const SelectSection = () => {
                   fontSize: "14px",
                 }}
               >
-                HVG Infotech Private Limited
+                VT Foods Private Limited
               </Typography> */}
               <Typography
                 color="inherit"
@@ -70,7 +70,7 @@ const SelectSection = () => {
                   color: "primary.main",
                 }}
               >
-                Why choose HVG Infotech Private Limited ?
+                Why choose VT Foods Private Limited ?
               </Typography>
               <Typography
                 sx={{

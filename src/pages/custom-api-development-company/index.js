@@ -26,7 +26,7 @@ const Page = () => {
   usePageView();
   return (
     <>
-      <Seo title="HVG Infotech PVT LTD - Hire Web and Mobile Application Development..." />
+      <Seo title="VT Foods PVT LTD - Hire Web and Mobile Application Development..." />
 
       <Box
         component="main"
@@ -56,7 +56,7 @@ const Page = () => {
                   mt: 4,
                 }}
               >
-                HVG Infotech PVT LTD is the leading name as best Rest API Development
+                VT Foods PVT LTD is the leading name as best Rest API Development
                 Company in Surat, India offers Custom and Third Party API
                 Integration Services with significant experience (5+ Years) to
                 transforming the different industries. Our API developers using

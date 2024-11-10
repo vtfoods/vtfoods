@@ -11,7 +11,7 @@ import { review } from "src/mock/review";
 const webAppData = {
   title: "Hear from our customers",
   subtitle:
-    "Become a part of the Emerging Startup HVG Infotech Private Limited!",
+    "Become a part of the Emerging Startup VT Foods Private Limited!",
   img: "/assets/9812.png",
 };
 

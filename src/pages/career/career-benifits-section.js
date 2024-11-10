@@ -18,7 +18,7 @@ const CareerBenefits = () => {
         <Container maxWidth="xl">
           <Box>
             <TitleSection
-              title="Why join HVG Infotech ?"
+              title="Why join VT Foods ?"
               desc="Dynamic environment, growth opportunities, and innovation commitment"
             />
             <Box sx={{ padding: "50px 0" }}>

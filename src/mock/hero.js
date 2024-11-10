@@ -1,27 +1,31 @@
 export const swiperOptions = [
     {
       id: 1,
-      image: "/assets/logo-sw.png",
+      image: "/assets/certification/APEDA-logo.png",
     },
     {
       id: 2,
-      image: "/assets/logo-sw1.webp",
+      image: "/assets/certification/Spices-Board-logo.png",
     },
     {
       id: 3,
-      image: "/assets/logo-sw2.png",
+      image: "/assets/certification/FSSAI-logo.png",
     },
     {
       id: 4,
-      image: "/assets/logo-sw3.svg",
+      image: "/assets/certification/FSSC-22000-logo.png",
     },
     {
       id: 5,
-      image: "/assets/logo-sw4.png",
+      image: "/assets/certification/FDA-logo.png",
     },
     {
       id: 6,
-      image: "/assets/logo-sw5.png",
+      image: "/assets/certification/KOSHER-logo.png",
+    },
+    {
+      id: 7,
+      image: "/assets/certification/HALAL-Logo.png",
     },
   ];
 
@@ -29,66 +33,62 @@ export const swiperOptions = [
 export const textAnimation = [
     {
       id: 1,
-      text: "Web Apps & Website Development",
+      text: "Dehydrated Onion",
     },
     {
       id: 2,
-      text: "Full Statck Development",
+      text: "Dehydrated Garlic",
     },
     {
       id: 3,
-      text: "Devops Services",
+      text: "Spices",
     },
     {
       id: 4,
-      text: "Saas Application Development",
+      text: "Dehydrated Onion",
     },
     {
       id: 5,
-      text: "Mobile App Development",
+      text: "Dehydrated Garlic",
     },
     {
       id: 6,
-      text: "Serverless Development",
+      text: "Spices",
     },
     {
       id: 7,
-      text: "UI/UX Development",
+      text: "Dehydrated Onion",
     },
     {
       id: 8,
-      text: "AI & Machine Learning",
+      text: "Dehydrated Garlic",
     },
     {
       id: 9,
-      text: "Web Apps & Website Development",
+      text: "Spices",
     },
     {
       id: 10,
-      text: "Full Statck Development",
+      text: "Dehydrated Onion",
     },
     {
       id: 11,
-      text: "Devops Services",
+      text: "Dehydrated Garlic",
     },
     {
       id: 12,
-      text: "Saas Application Development",
+      text: "Spices",
     },
     {
       id: 13,
-      text: "Mobile App Development",
+      text: "Dehydrated Onion",
     },
     {
       id: 14,
-      text: "Serverless Development",
+      text: "Dehydrated Garlic",
     },
     {
       id: 15,
-      text: "UI/UX Development",
-    },
-    {
-      id: 16,
-      text: "AI & Machine Learning",
+      text: "Spices",
     },
   ];

@@ -6,8 +6,8 @@ export const Seo = (props) => {
   const { title, ...rest } = props;
 
   const fullTitle = title
-    ? title + ' | HVG Infotech PVT LTD'
-    : 'HVG Infotech PVT LTD';
+    ? title + ' | VT Foods PVT LTD'
+    : 'VT Foods PVT LTD';
 
 
     return (

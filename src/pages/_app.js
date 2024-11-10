@@ -56,7 +56,7 @@ const App = (props) => {
     <>
       <CacheProvider value={emotionCache}>
         <Head>
-          <title>HVG Infotech PVT LTD</title>
+          <title>VT Foods PVT LTD</title>
           <meta name="viewport" content="initial-scale=1, width=device-width" />
         </Head>
         <ReduxProvider store={store}>

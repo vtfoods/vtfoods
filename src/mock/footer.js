@@ -194,22 +194,19 @@ export const sections = [
   ];
   export const workWithUs = [
     {
-      title: "freelancer",
-      path: "https://www.freelancer.in/u/HVGInfotech",
-      image: "/assets/free-white.png",
+      title: "FSSAI-logo",
+      image: "/assets/certification/FSSAI-logo.png",
       height: "50px",
     },
     {
-      title: "upwork",
-      path: "https://www.upwork.com/agencies/hvginfotechpvtltd/",
-      image: "/assets/upwork-white.png",
+      title: "Spices-Board-logo",
+      image: "/assets/certification/Spices-Board-logo.png",
       height: "40px",
     },
   
     {
-      title: "clutch",
-      path: "https://clutch.co/profile/hvg-infotech-private#highlights",
-      image: "/assets/clutch-white.png",
+      title: "APEDA-logo",
+      image: "/assets/certification/APEDA-logo.png",
       height: "30px",
     },
   ];

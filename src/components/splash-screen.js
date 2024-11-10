@@ -20,9 +20,9 @@ export const SplashScreen = () => (
   >
     <span className="loader flex items-center justify-center">
       <img
-        alt="HVG Infotech PVT LTD Logo"
-        src="/Favicon.png"
-        style={{ maxHeight: "80px", maxWidth: "80px", margin: "auto" }}
+        alt="VT Foods PVT LTD Logo"
+        src="/assets/VT-logo.png"
+        style={{ maxHeight: "50px", maxWidth: "80px", margin: "auto" }}
       />
     </span>
 
