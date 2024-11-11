@@ -1,5 +1,7 @@
+
 export const paths = {
   index: "/",
+  products: "/products",
   checkout: "/checkout",
   contact: "/contact",
   pricing: "/pricing",

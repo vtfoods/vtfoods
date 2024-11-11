@@ -22,8 +22,8 @@ import { PagesPopoverCompany } from "./pages-popover-company";
 import Link from "next/link";
 //Remove
 const items =
-process.env.NODE_ENV == "development"
-// process.env.NODE_ENV !== "development"
+// process.env.NODE_ENV == "development"
+process.env.NODE_ENV !== "development"
     ? [
       {
         title: "Components",
@@ -74,20 +74,20 @@ process.env.NODE_ENV == "development"
         path: paths.index,
       },
       {
-        title: "Services",
-        popover: <PagesPopoverWe />,
+        title: "Products",
+        path: paths.products,
       },
       {
-        title: "Technologies",
-        path: paths.technologies,
+        title: "About Us",
+        path: paths.about,
       },
       {
-        title: "Portfolio",
-        path: paths.portfolio,
+        title: "Our Team",
+        path: paths.ourTeam,
       },
       {
-        title: "Company",
-        popover: <PagesPopoverCompany />,
+        title: "Contact Us",
+        path: paths.contactUs,
       },
     ];
 

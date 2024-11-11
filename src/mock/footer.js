@@ -42,8 +42,8 @@ export const sections = [
           ),
         },
         {
-          title: "Career",
-          path: paths.career,
+          title: "Products",
+          path: paths.products,
           icon: (
             <SvgIcon fontSize="medium">
               <BusinessCenterIcon />
@@ -71,83 +71,83 @@ export const sections = [
         },
       ],
     },
-    {
-      title: "Services",
-      items: [
-        {
-          title: "Web Apps & Website Development",
-          path: paths.saasAplication,
-          icon: (
-            <SvgIcon fontSize="medium">
-              <CloudDoneIcon />
-            </SvgIcon>
-          ),
-        },
-        {
-          title: "Full Statck Development",
-          path: paths.mobileApp,
-          icon: (
-            <SvgIcon fontSize="medium">
-              <MobileFriendlyIcon />
-            </SvgIcon>
-          ),
-        },
-        {
-          title: "Saas App Development",
-          path: paths.fullStack,
-          icon: (
-            <SvgIcon fontSize="medium">
-              <CodeIcon />
-            </SvgIcon>
-          ),
-        },
-        {
-          title: "Mobile App Development",
-          path: paths.serverLess,
-          icon: (
-            <SvgIcon fontSize="medium">
-              <FunctionsIcon />
-            </SvgIcon>
-          ),
-        },
-        {
-          title: "Serverless Development",
-          path: paths.webApp,
-          icon: (
-            <SvgIcon fontSize="medium">
-              <WebIcon />
-            </SvgIcon>
-          ),
-        },
-        {
-          title: "Devops Services",
-          path: paths.devlopServices,
-          icon: (
-            <SvgIcon fontSize="medium">
-              <SettingsIcon />
-            </SvgIcon>
-          ),
-        },
-        {
-          title: "UI/UX Development",
-          path: paths.uiux,
-          icon: (
-            <SvgIcon fontSize="medium">
-              <PaletteIcon />
-            </SvgIcon>
-          ),
-        },
-        {
-          title: "OffShore Developers",
-          path: paths.offShore,
-          icon: (
-            <SvgIcon fontSize="medium">
-              <PaletteIcon />
-            </SvgIcon>
-          ),
-        },
-      ],
-    },
+    // {
+    //   title: "Services",
+    //   items: [
+    //     {
+    //       title: "Web Apps & Website Development",
+    //       path: paths.saasAplication,
+    //       icon: (
+    //         <SvgIcon fontSize="medium">
+    //           <CloudDoneIcon />
+    //         </SvgIcon>
+    //       ),
+    //     },
+    //     {
+    //       title: "Full Statck Development",
+    //       path: paths.mobileApp,
+    //       icon: (
+    //         <SvgIcon fontSize="medium">
+    //           <MobileFriendlyIcon />
+    //         </SvgIcon>
+    //       ),
+    //     },
+    //     {
+    //       title: "Saas App Development",
+    //       path: paths.fullStack,
+    //       icon: (
+    //         <SvgIcon fontSize="medium">
+    //           <CodeIcon />
+    //         </SvgIcon>
+    //       ),
+    //     },
+    //     {
+    //       title: "Mobile App Development",
+    //       path: paths.serverLess,
+    //       icon: (
+    //         <SvgIcon fontSize="medium">
+    //           <FunctionsIcon />
+    //         </SvgIcon>
+    //       ),
+    //     },
+    //     {
+    //       title: "Serverless Development",
+    //       path: paths.webApp,
+    //       icon: (
+    //         <SvgIcon fontSize="medium">
+    //           <WebIcon />
+    //         </SvgIcon>
+    //       ),
+    //     },
+    //     {
+    //       title: "Devops Services",
+    //       path: paths.devlopServices,
+    //       icon: (
+    //         <SvgIcon fontSize="medium">
+    //           <SettingsIcon />
+    //         </SvgIcon>
+    //       ),
+    //     },
+    //     {
+    //       title: "UI/UX Development",
+    //       path: paths.uiux,
+    //       icon: (
+    //         <SvgIcon fontSize="medium">
+    //           <PaletteIcon />
+    //         </SvgIcon>
+    //       ),
+    //     },
+    //     {
+    //       title: "OffShore Developers",
+    //       path: paths.offShore,
+    //       icon: (
+    //         <SvgIcon fontSize="medium">
+    //           <PaletteIcon />
+    //         </SvgIcon>
+    //       ),
+    //     },
+    //   ],
+    // },
   ];
   
  export const socials = [

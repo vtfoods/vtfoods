@@ -32,9 +32,9 @@ export const Footer = (props) => {
       color: "neutral.100",
       py: "60px",
       overflow: "hidden",
-      pb: 6,
+      pb: 2,
       pt: {
-        md: 15,
+        md: 6,
         xs: 6,
       },
     }}
@@ -44,7 +44,7 @@ export const Footer = (props) => {
 
       <Box
         sx={{
-          paddingBottom: "50px",
+          paddingBottom: "0px",
         }}
       >
 
@@ -132,15 +132,19 @@ export const Footer = (props) => {
     </Container>
 
     <Container maxWidth="xl">
+    <Divider sx={{ my: 5, borderColor: "#656565" }} />
+
       <Grid
         container
         spacing={3}
         sx={{
-          pt: 7,
+          pt: 1,
         }}
       >
+
         {sections.map((section, index) => (
-          <Grid key={section.title} xs={12} sm={4} md={4}>
+          
+          <Grid key={section.title} xs={12} sm={6} md={6}>
           <Typography
                 color="white"
                 sx={{
@@ -152,7 +156,7 @@ export const Footer = (props) => {
                   WebkitBackgroundClip: "text",
                   WebkitTextFillColor: "transparent",
                   letterSpacing: "0.1em",
-                  paddingBottom: "10px",
+                  paddingBottom: "20px",
                 }}
               >
               {section.title}
@@ -215,7 +219,7 @@ export const Footer = (props) => {
           </Grid>
         ))}
 
-        <Grid xs={12} sm={4} md={4}>
+        <Grid xs={12} sm={6} md={6}>
         <Typography
         color="white"
         sx={{
@@ -227,7 +231,7 @@ export const Footer = (props) => {
           WebkitBackgroundClip: "text",
           WebkitTextFillColor: "transparent",
           letterSpacing: "0.1em",
-          paddingBottom: "10px",
+          paddingBottom: "20px",
         }}
       >
             Contact Details
@@ -410,7 +414,7 @@ export const Footer = (props) => {
           </Grid>
         </Grid>
       </Box>
-      <Divider sx={{ my: 6, borderColor: "#656565" }} />
+      <Divider sx={{ my: 2, borderColor: "#656565" }} />
 
       <Box sx={{ flexGrow: 1 }}>
         <Grid container spacing={2}>
