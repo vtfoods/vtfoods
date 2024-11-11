@@ -17,6 +17,7 @@ import TitleSection from "src/sections/home/title-section";
 import { socials } from "src/mock/footer";
 import MailIcon from "@mui/icons-material/Mail";
 import PhoneIcon from "@mui/icons-material/Phone";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 const Page = () => {
   usePageView();
@@ -156,6 +157,31 @@ const Page = () => {
                             }}
                           />{" "}
                           <Typography>+91 94284 96265</Typography>
+                        </Link>
+                        <Link
+                          color="white"
+                          variant="subtitle1"
+                          href="https://wa.me/+919978136555"
+                          target="_blank"
+                          sx={{
+                            fontSize: "16px",
+                            fontWeight: "500",
+                            display: "flex",
+                            alignItems: "center",
+
+                            color: "black",
+                            "&:hover": {
+                              color: "primary.main",
+                              textDecoration: "none",
+                            },
+                          }}
+                        >
+                          <WhatsAppIcon
+                            sx={{
+                              mr: 1,
+                            }}
+                          />{" "}
+                          <Typography>+91 99781 36555</Typography>
                         </Link>
                         <Link
                           color="white"
