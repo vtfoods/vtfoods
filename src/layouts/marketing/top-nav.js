@@ -22,8 +22,8 @@ import { PagesPopoverCompany } from "./pages-popover-company";
 import Link from "next/link";
 //Remove
 const items =
-// process.env.NODE_ENV == "development"
-process.env.NODE_ENV !== "development"
+process.env.NODE_ENV == "development"
+// process.env.NODE_ENV !== "development"
     ? [
       {
         title: "Components",

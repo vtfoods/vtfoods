@@ -5,7 +5,6 @@ import { layout } from "src/utils/constant";
 import { description } from "src/meta-description";
 import { ProductTable } from "src/components/product-table/ProductTable";
 
-
 const Page = () => {
     usePageView();
 
