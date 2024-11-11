@@ -87,6 +87,7 @@ export const Footer = (props) => {
               display={{ xs: "flex", md: "block" }}
               flexDirection={{ xs: "column", md: "row" }}
               alignItems={{ xs: "center", md: "start" }}
+              textAlign={{ xs: "center", md: "start" }}
             >
               <Typography
                 color="white"
@@ -273,14 +274,14 @@ export const Footer = (props) => {
                     },
                   }}
                 >
-                  1019, 1020, 1021, Silver Business Point, Near VIP Circle,
-                  opposite Royal Square, Uttran, Surat, Gujarat 394105
+                  {`V. T. FOODS PVT. LTD., Survey 1 peki 1, Nesvad Village, Dondas Chokadi, Mahuva, District - Bhavnagar, Gujarat - 364290`}
                 </Link>
               </Box>
+              <Box>
               <Link
                 color="white"
                 variant="subtitle1"
-                href="tel:+91 94284 96265"
+                href="tel:+91 80806 51693"
                 target="_blank"
                 sx={{
                   fontSize: "16px",
@@ -301,8 +302,31 @@ export const Footer = (props) => {
                     mr: 1,
                   }}
                 />{" "}
-                +91 94284 96265
+                +91 80806 51693
               </Link>
+              <span style={{color: "black", fontWeight:"bold"}}>{` | `}</span>
+              <Link
+                color="white"
+                variant="subtitle1"
+                href="tel:+91 99099 10980"
+                target="_blank"
+                sx={{
+                  fontSize: "16px",
+                  fontWeight: "500",
+                  display: "inline-block",
+                  transition: "all 0.3s",
+                  color: "black",
+                  "&:hover": {
+                    fontWeight: "600",
+                    color: "white",
+                    textDecoration: "none",
+                    marginLeft: "5px",
+                  },
+                }}
+              >
+                +91 99099 10980
+              </Link>
+              </Box>
               <Link
                 color="white"
                 variant="subtitle1"

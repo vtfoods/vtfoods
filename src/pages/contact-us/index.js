@@ -123,41 +123,61 @@ const Page = () => {
                             }}
                           >
                             <Typography>
-                              {" "}
-                              1019, 1020, 1021, Silver Business Point, Near VIP
-                              Circle, opposite Royal Square, Uttran, Surat,
-                              Gujarat 394105{" "}
+                            {`V. T. FOODS PVT. LTD., Survey 1 peki 1, Nesvad Village, Dondas Chokadi, Mahuva, District - Bhavnagar, Gujarat - 364290`}
                             </Typography>
                           </Link>
                         </Box>
 
-                       
 
-                        <Link
-                          color="white"
-                          variant="subtitle1"
-                          href="tel:+91 94284 96265"
-                          target="_blank"
-                          sx={{
-                            fontSize: "16px",
-                            fontWeight: "500",
-                            display: "flex",
-                            alignItems: "center",
 
-                            color: "black",
-                            "&:hover": {
-                              color: "primary.main",
-                              textDecoration: "none",
-                            },
-                          }}
-                        >
-                          <PhoneIcon
+
+                        <Box display={"flex"} gap={1}>
+                          <Link
+                            color="white"
+                            variant="subtitle1"
+                            href="tel:+91 80806 51693"
+                            target="_blank"
+                            
                             sx={{
-                              mr: 1,
+                              fontWeight: "500",
+                              display: "flex",
+                              alignItems: "center",
+
+                              color: "black",
+                              "&:hover": {
+                                color: "primary.main",
+                                textDecoration: "none",
+                              },
                             }}
-                          />{" "}
-                          <Typography>+91 94284 96265</Typography>
-                        </Link>
+                          >
+                            <PhoneIcon
+                              sx={{
+                                mr: 1,
+                              }}
+                            />{" "}
+                            <Typography fontSize={{ xs: "12px", sm: "16px", md: "16px" }}>+91 8080651693</Typography>
+                          </Link>
+                          <span style={{ color: "black", fontWeight: "bold" }}>{` | `}</span>
+                          <Link
+                            color="white"
+                            variant="subtitle1"
+                            href="tel:+91 99099 10980"
+                            target="_blank"
+                            sx={{
+                              fontWeight: "500",
+                              display: "flex",
+                              alignItems: "center",
+
+                              color: "black",
+                              "&:hover": {
+                                color: "primary.main",
+                                textDecoration: "none",
+                              },
+                            }}
+                          >
+                            <Typography fontSize={{ xs: "12px", sm: "16px", md: "16px" }}>+91 9909910980</Typography>
+                          </Link>
+                        </Box>
                         <Link
                           color="white"
                           variant="subtitle1"

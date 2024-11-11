@@ -123,7 +123,7 @@ const HeroSection = () => {
               sx={{ flexGrow: 1, pt: 2 }}
               justifyContent="center"
             > 
-              <Link href="/contact-us">
+              <Link href="/products">
                 <Button
                   variant="contained"
                   sx={{
