@@ -17,7 +17,7 @@ const GoalSection = () => {
       <Container maxWidth="xl">
         <TitleSection
           title="Our Vision & Mission"
-          desc="Empower through innovation to create impactful change"
+          desc=""
         />
         <Box
           sx={{

@@ -18,12 +18,12 @@ import SideBySideSection from "src/components/sideBySideSection";
 import TitleSection from "src/sections/home/title-section";
 
 const webAppData = {
-  title: "TeamConnect: The Power of United Experts",
-  subtitle: "We help you take your business to the digital sphere.",
+  title: "Our Team",
+  subtitle: "",
   img: "/assets/teamWork.png",
   desc: [
-    "Welcome to our TeamConnect website, where collaboration and expertise meet for outstanding results. Our team is a diverse group of skilled professionals dedicated to delivering exceptional solutions and services.",
-    "We believe in the power of teamwork and understand that the collective strength of our members drives our success. Our website showcases the talent, skills, and passion that each team member brings to the table. We foster a collaborative and inclusive environment where ideas are shared, perspectives are valued, and excellence is encouraged. Our team members work closely together, leveraging their unique strengths and knowledge to deliver outstanding outcomes for our clients.",
+    `Our team is made up of dedicated professionals with expertise across various aspects of dehydration, quality control, and customer support. Together, they bring knowledge, passion, and commitment to ensure VT FOODS consistently delivers excellence.`,
+    `At VT FOODS, our team works collaboratively to ensure our values are reflected in every product we produce and every partnership we form.`,
   ],
 };
 const Page = () => {

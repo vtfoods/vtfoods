@@ -66,9 +66,9 @@ const HeroSection = () => {
       sx={{
         backgroundImage:
           "linear-gradient(to bottom, rgb(255 255 255 / 27%), rgb(227 219 255)), url(/assets/bg-a.png);",
-        backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
+        backgroundSize: "cover",
       }}
     >
       <Container maxWidth="md">
@@ -92,7 +92,7 @@ const HeroSection = () => {
                   lineHeight: 1.5,
                 }}
               >
-                Manufacturer & Exporter of{""}
+                Manufacturer & Exporter of
                 <Box
                   className="App"
                   sx={{
@@ -100,9 +100,9 @@ const HeroSection = () => {
                   }}
                 >
                   <div className="container">
-                    <div className="wrapper" ref={containerRef}>
+                    <div className="wrapper" ref={containerRef} >
                       {textAnimation.map((item, idx) => (
-                        <span className="item" key={idx}>{item.text}</span>
+                        <span className="item" key={idx} style={{height: '80px'}}>{item.text}</span>
                       ))}
                     </div>
                   </div>
@@ -112,7 +112,7 @@ const HeroSection = () => {
 
             <Typography
               color="inherit"
-              sx={{ my: 2, textAlign: "center", fontSize: "22px" }}
+              sx={{ my: 0, textAlign: "center", fontSize: "22px" }}
             >
               We are a leading manufacturer and exporter of a wide range of dehydrated products including spices, pulses, grains, and more. Our products are sourced from the best farms and processed in our state-of-the-art facilities to ensure the highest quality and freshness.
             </Typography>

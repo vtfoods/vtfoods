@@ -19,12 +19,12 @@ export const HomeHero = () => {
       <Box sx={{ overflowX: "hidden" }}>
         <HeroSection />
         <ServiceSection />
-        <TechologySection />
+        {/* <TechologySection /> */}
         <ProtfoliTabs isHome />
         <HomeCta />
         <SelectSection />
 
-        <TestimonialSection isHome />
+        {/* <TestimonialSection isHome /> */}
         {/* <BlogSection /> */}
       </Box>
     </>

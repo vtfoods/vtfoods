@@ -44,10 +44,10 @@ const Page = () => {
 
       <Box
         sx={{
-          backgroundImage: 'url("/assets/5570864-ai (1).png")',
-          backgroundRepeat: "repeat",
+          backgroundImage: 'url(/assets/bg-a.png)',
+          backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
-          backgroundSize: "contain",
+          backgroundSize: "cover",
           borderRadius: 1,
           display: "flex",
           alignItems: "center",
@@ -106,7 +106,7 @@ const Page = () => {
                           <Link
                             color="white"
                             variant="subtitle1"
-                            href="https://goo.gl/maps/2GFSqWAJEXSowwr29"
+                            href="https://maps.app.goo.gl/NwQHwKD7XxdmRbfx9"
                             target="_blank"
                             sx={{
                               fontSize: "16px",
@@ -130,42 +130,12 @@ const Page = () => {
                           </Link>
                         </Box>
 
-                        <Box>
-                          <Typography variant="h6">
-                            {" "}
-                            <LocationOnIcon sx={{ mr: 1 }} />
-                            UK
-                          </Typography>{" "}
-                          <Link
-                            color="white"
-                            variant="subtitle1"
-                            href="https://maps.app.goo.gl/UovH5e4DG2utN4JS9"
-                            target="_blank"
-                            sx={{
-                              fontSize: "16px",
-                              fontWeight: "500",
-                              display: "flex",
-                              alignItems: "center",
-                              color: "black",
-                              marginTop: "5px",
-                              "&:hover": {
-                                color: "primary.main",
-                                textDecoration: "none",
-                              },
-                            }}
-                          >
-                            <Typography>
-                              {" "}
-                              85-Great Portland street, First Floor, London, W1W
-                              7LT{" "}
-                            </Typography>
-                          </Link>
-                        </Box>
+                       
 
                         <Link
                           color="white"
                           variant="subtitle1"
-                          href="tel:+91 99040 40083"
+                          href="tel:+91 94284 96265"
                           target="_blank"
                           sx={{
                             fontSize: "16px",
@@ -185,12 +155,12 @@ const Page = () => {
                               mr: 1,
                             }}
                           />{" "}
-                          <Typography>+91 99040 40083</Typography>
+                          <Typography>+91 94284 96265</Typography>
                         </Link>
                         <Link
                           color="white"
                           variant="subtitle1"
-                          href="mailto: contact@hvginfotech.com"
+                          href="mailto: vtfoods.onion@gmail.com"
                           target="_blank"
                           sx={{
                             fontSize: "16px",
@@ -210,42 +180,8 @@ const Page = () => {
                               mr: 1,
                             }}
                           />{" "}
-                          <Typography>contact@hvginfotech.com</Typography>
+                          <Typography>vtfoods.onion@gmail.com</Typography>
                         </Link>
-                      </Stack>
-                    </Grid>
-
-                    <Grid item xs={12}>
-                      <Stack
-                        spacing={2}
-                        direction="row"
-                        sx={{
-                          display: "flex",
-                          justifyContent: "start",
-                          alignItems: "center",
-                          mt: 2,
-                        }}
-                      >
-                        {socials.map((section, index) => (
-                          <Link href={section.path} target="_blank" key={index}>
-                            <SvgIcon
-                              fontSize="large"
-                              sx={{
-                                color: "primary.main",
-                                border: "1px solid #656565",
-                                borderRadius: "50%",
-                                padding: "5px",
-                                height: "40px",
-                                width: "40px",
-                                "&:hover": {
-                                  color: "#d3c9fe",
-                                },
-                              }}
-                            >
-                              {section.icon}
-                            </SvgIcon>
-                          </Link>
-                        ))}
                       </Stack>
                     </Grid>
                   </Grid>
@@ -298,7 +234,7 @@ const Page = () => {
               <Grid xs={12}>
                 <Stack>
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.9618366520644!2d72.86165577587286!3d21.233361880467594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04f47dacf1b99%3A0x4e03c06b6d751b27!2sHVG%20Infotech%20Private%20Limited!5e0!3m2!1sen!2sin!4v1717666495409!5m2!1sen!2sin"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3722.1765772202216!2d71.73848837504606!3d21.105525280563143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be23b3f16a92bd3%3A0x7e51bfafae71d784!2sV.%20T.%20Foods%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1731309942318!5m2!1sen!2sin"
                     width="100%"
                     height="600"
                     style={{ border: "0" }}

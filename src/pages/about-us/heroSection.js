@@ -3,10 +3,10 @@ import { Box, Container } from "@mui/material";
 import SideBySideSection from "src/components/sideBySideSection";
 
 const aboutData = {
-  title: "Where Vision Meets Technology",
+  title: "",
   desc: [
-    "VT Foods is a team of experts dedicated to delivering tailored software solutions that meet the unique needs of entrepreneurs, individuals, and startups. With a focus on reliability, scalability, and innovation, we help our clients achieve their goals and succeed in the digital age..",
-    "We&apos;re a software consulting and engineering team that specializes in crafting customized, resilient web applications,mobile apps, and enterprise solutions. Our mission is to help entrepreneurs, individuals, and startups bring their vision to life, providing comprehensive software consultancy and engineering services that drive digital outcomes..",
+    `VT FOODS PRIVATE LIMITED is a trusted manufacturer and exporter of dehydrated vegetables and spices, located in Mahuva City, Gujarat, India—the hub of dehydrated onion and garlic. Since our journey began in 2014, our leadership has been dedicated to delivering top-quality products and exceptional service. With a passion for agriculture and extensive experience, we aim to make healthy, natural ingredients accessible globally.`,
+    `At VT FOODS, we prioritize quality and innovation, using advanced technology and machinery, including state-of-the-art color sorters and a comprehensive microbiological laboratory. We process all ingredients according to stringent specifications and offer customization to meet our customers’ unique needs. Our commitment to traceability and reliable supply chains helps our partners stay efficient and ensures consistent access to high-quality ingredients.`,
   ],
   img: "/assets/about0us.png",
 };

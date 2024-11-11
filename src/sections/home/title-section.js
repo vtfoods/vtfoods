@@ -8,9 +8,11 @@ const TitleSection = ({ title, desc, isChildPage }) => {
         color="primary"
         textAlign={isChildPage ? "left" : "center"}
         sx={{
-          fontWeight: "600",
           fontSize: "40px",
-          lineHeight: isChildPage ? "50px" : "60px",
+          fontWeight: "600",
+          textShadow: "2px 2px 5px rgba(0,0,0,0.3)",
+          WebkitBackgroundClip: "text",
+          letterSpacing: "0.1em",
         }}
       >
         {title}

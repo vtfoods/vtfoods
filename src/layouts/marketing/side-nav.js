@@ -378,12 +378,12 @@ export const SideNav = (props) => {
           <Box>
             <img
               alt="VT Foods PVT LTD Logo"
-              src="/assets/Logohvg.png"
-              style={{ maxHeight: "100%", maxWidth: "40%" }}
+              src="/assets/VT-logo.png"
+              style={{ maxWidth: "20%" }}
             />
           </Box>
           <Box>
-            <IconButton color="inherit" onClick={onClose}>
+            <IconButton color="inherit" onClick={(e)=>{e.preventDefault(); onClose()}}>
               <SvgIcon>
                 <XIcon />
               </SvgIcon>

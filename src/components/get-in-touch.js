@@ -12,12 +12,15 @@ import {
 
 import * as Yup from "yup";
 import { Popover } from "@mui/material";
+import WhatsAppAnswerIcon from "@mui/icons-material/WhatsApp";
 import QuestionAnswerIcon from "@mui/icons-material/QuestionAnswer";
 import { useFormik } from "formik";
 import { sendForm } from "@emailjs/browser";
+import Link from "next/link";
 
 function GetInTouch() {
   const [anchorEl, setAnchorEl] = useState(null);
+  const [anchorEl1, setAnchorEl1] = useState(null);
 
   const initialValues = {
     fname: "",
@@ -65,8 +68,10 @@ function GetInTouch() {
   });
 
   const handleOpen = (e) => setAnchorEl(e.currentTarget);
+  const handleOpen1 = (e) => setAnchorEl1(e.currentTarget);
 
   const handleClose = () => setAnchorEl(null);
+  const handleClose1 = () => setAnchorEl1(null);
 
   return (
     <>
@@ -90,6 +95,27 @@ function GetInTouch() {
       >
         <QuestionAnswerIcon sx={{ color: "white" }} />
       </Box>
+      <Box
+        sx={{
+          cursor: "pointer",
+          position: "fixed",
+          bottom: 16,
+          right: 70,
+          fontWeight: 500,
+          width: 48,
+          height: 48,
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          borderRadius: "50%",
+          aspectRatio: 1 / 1,
+          bgcolor: "#1ba553",
+        }}
+        onClick={handleOpen1}
+      >
+        <WhatsAppAnswerIcon sx={{ color: "white" }} />
+      </Box>
+      {/* First Popover */}
       <Popover
         open={!!anchorEl}
         anchorEl={anchorEl}
@@ -217,6 +243,88 @@ function GetInTouch() {
               </Box>
             </Grid>
           </Grid>
+        </Box>
+      </Popover>
+      {/* second Popover */}
+      <Popover
+        open={!!anchorEl1}
+        anchorEl={anchorEl1}
+        onClose={handleClose1}
+        anchorOrigin={{
+          vertical: "top",
+          horizontal: "left",
+        }}
+        transformOrigin={{
+          vertical: "bottom",
+          horizontal: "left",
+        }}
+        sx={{ transform: "translate(0px, -10px)", width: "100%" }}
+      >
+        <Box
+          sx={{
+            backgroundColor: "#25D366",
+            color: "white",
+            p: 2,
+            textAlign: "center",
+            borderTopLeftRadius: 8,
+            borderTopRightRadius: 8,
+          }}
+        >
+          <Typography variant="h6" fontWeight="bold">
+            Raise your Query
+          </Typography>
+          <Typography variant="body2">
+            Simply click below and type your query.
+          </Typography>
+        </Box>
+
+        <Box
+          sx={{
+            backgroundColor: "#fff",
+            p: 2,
+            textAlign: "center",
+            borderBottomLeftRadius: 8,
+            borderBottomRightRadius: 8,
+            boxShadow: "0px 4px 8px rgba(0, 0, 0, 0.1)",
+          }}
+        >
+          <Typography variant="body2" sx={{ mb: 1 }}>
+            Our experts will reply to you very soon.
+          </Typography>
+          <Link
+            color="white"
+            href="https://wa.me/+919978136555"
+            target="_blank"
+          >
+            <Box
+              sx={{
+                backgroundColor: "#f0f0f0",
+                borderRadius: 2,
+                p: 1,
+                display: "flex",
+                alignItems: "center",
+                cursor: "pointer",
+                "&:hover": {
+                  backgroundColor: "#e0e0e0",
+                },
+              }}
+            >
+
+              <Box sx={{ mr: 2 }} >
+
+                <WhatsAppAnswerIcon sx={{ color: "green" }} />
+              </Box>
+              <Box>
+                <Typography variant="body1" fontWeight="500">
+                  Click Here to Chat
+                </Typography>
+                <Typography variant="body2" color="textSecondary">
+                  V.T. FOODS PVT. LTD
+                </Typography>
+              </Box>
+
+            </Box>
+          </Link>
         </Box>
       </Popover>
     </>

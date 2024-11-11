@@ -8,20 +8,27 @@ import {
   Unstable_Grid2 as Grid,
   SvgIcon,
   Button,
+  useMediaQuery,
 } from "@mui/material";
 import { RouterLink } from "src/components/router-link";
 import PhoneIcon from "@mui/icons-material/Phone";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import MailIcon from "@mui/icons-material/Mail";
 import { sections, socials, workWithUs } from "src/mock/footer";
 
-export const Footer = (props) => (
-  <Box
+
+export const Footer = (props) => {
+
+  const mdUp = useMediaQuery((theme) => theme.breakpoints.up("md"));
+
+ return <Box
     sx={{
       backgroundColor: "neutral.800",
       backgroundRepeat: "repeat",
       backgroundPosition: "bottom",
       backgroundImage: 'url("/assets/bbbb.png")',
+      backgroundSize: "cover",
       color: "neutral.100",
       py: "60px",
       overflow: "hidden",
@@ -59,6 +66,7 @@ export const Footer = (props) => (
             md={7}
             display="flex"
             justifyContent={{ xs: "center", md: "start" }}
+            flexDirection={{ xs: "column", md: "row" }}
           >
             <Box
               sx={{
@@ -74,7 +82,12 @@ export const Footer = (props) => (
                 style={{ height: "70px", width: 'auto' }}
               />
             </Box>
-            <Box>
+            <Box
+              justifyContent={{ xs: "center", md: "start" }}
+              display={{ xs: "flex", md: "block" }}
+              flexDirection={{ xs: "column", md: "row" }}
+              alignItems={{ xs: "center", md: "start" }}
+            >
               <Typography
                 color="white"
                 variant="h4"
@@ -127,15 +140,20 @@ export const Footer = (props) => (
       >
         {sections.map((section, index) => (
           <Grid key={section.title} xs={12} sm={4} md={4}>
-            <Typography
-              color="black"
-              sx={{
-                fontSize: "20px",
-                pb: 2,
-                fontWeight: 500,
-                textTransform: "uppercase",
-              }}
-            >
+          <Typography
+                color="white"
+                sx={{
+                  fontSize: "20px",
+                  textTransform: "uppercase",
+                  fontWeight: "bold",
+                  textShadow: "2px 2px 5px rgba(0,0,0,0.3)",
+                  background: "linear-gradient(45deg, black, black)",
+                  WebkitBackgroundClip: "text",
+                  WebkitTextFillColor: "transparent",
+                  letterSpacing: "0.1em",
+                  paddingBottom: "10px",
+                }}
+              >
               {section.title}
             </Typography>
 
@@ -197,15 +215,20 @@ export const Footer = (props) => (
         ))}
 
         <Grid xs={12} sm={4} md={4}>
-          <Typography
-            color="black"
-            sx={{
-              fontSize: "20px",
-              pb: 2,
-              fontWeight: 500,
-              textTransform: "uppercase",
-            }}
-          >
+        <Typography
+        color="white"
+        sx={{
+          fontSize: "20px",
+          textTransform: "uppercase",
+          fontWeight: "bold",
+          textShadow: "2px 2px 5px rgba(0,0,0,0.3)",
+          background: "linear-gradient(45deg, black, black)",
+          WebkitBackgroundClip: "text",
+          WebkitTextFillColor: "transparent",
+          letterSpacing: "0.1em",
+          paddingBottom: "10px",
+        }}
+      >
             Contact Details
           </Typography>
 
@@ -233,7 +256,7 @@ export const Footer = (props) => (
                 <Link
                   color="white"
                   variant="subtitle1"
-                  href="https://goo.gl/maps/2GFSqWAJEXSowwr29"
+                  href="https://maps.app.goo.gl/wdK1PpmF59GW4AFa6"
                   target="_blank"
                   sx={{
                     fontSize: "16px",
@@ -254,44 +277,10 @@ export const Footer = (props) => (
                   opposite Royal Square, Uttran, Surat, Gujarat 394105
                 </Link>
               </Box>
-              <Box>
-                <Typography
-                  variant="h6"
-                  sx={{
-                    color: "black",
-                  }}
-                >
-                  {" "}
-                  <LocationOnIcon sx={{ mr: 1 }} />
-                  UK
-                </Typography>{" "}
-                <Link
-                  color="white"
-                  variant="subtitle1"
-                  href="https://maps.app.goo.gl/UovH5e4DG2utN4JS9"
-                  target="_blank"
-                  sx={{
-                    fontSize: "16px",
-                    fontWeight: "500",
-                    display: "inline-block",
-                    transition: "all 0.3s",
-                    color: "black",
-                    marginTop: "5px",
-                    "&:hover": {
-                      fontWeight: "600",
-                      color: "white",
-                      textDecoration: "none",
-                      marginLeft: "5px",
-                    },
-                  }}
-                >
-                  85-Great Portland street, First Floor, London, W1W 7LT
-                </Link>
-              </Box>
               <Link
                 color="white"
                 variant="subtitle1"
-                href="tel:+91 99040 40083"
+                href="tel:+91 94284 96265"
                 target="_blank"
                 sx={{
                   fontSize: "16px",
@@ -312,12 +301,38 @@ export const Footer = (props) => (
                     mr: 1,
                   }}
                 />{" "}
-                +91 99040 40083
+                +91 94284 96265
               </Link>
               <Link
                 color="white"
                 variant="subtitle1"
-                href="mailto: contact@hvginfotech.com"
+                href="https://wa.me/+919978136555"
+                target="_blank"
+                sx={{
+                  fontSize: "16px",
+                  fontWeight: "500",
+                  display: "inline-block",
+                  transition: "all 0.3s",
+                  color: "black",
+                  "&:hover": {
+                    fontWeight: "600",
+                    color: "white",
+                    textDecoration: "none",
+                    marginLeft: "5px",
+                  },
+                }}
+              >
+                <WhatsAppIcon
+                  sx={{
+                    mr: 1,
+                  }}
+                />{" "}
+                +91 99781 36555
+              </Link>
+              <Link
+                color="white"
+                variant="subtitle1"
+                href="mailto: vtfoods.onion@gmail.com"
                 target="_blank"
                 sx={{
                   fontSize: "16px",
@@ -338,7 +353,7 @@ export const Footer = (props) => (
                     mr: 1,
                   }}
                 />
-                contact@hvginfotech.com
+                vtfoods.onion@gmail.com
               </Link>
             </Stack>
           </Stack>
@@ -377,18 +392,34 @@ export const Footer = (props) => (
         <Grid container spacing={2}>
 
           <Grid xs={12} sm={12}>
-            <Typography
-              color="black"
-              fontSize={"14px"}
-              sx={{
-                textAlign: "center",
-              }}
-            >
-              © 2024 All Rights Reserved - vtfoods.com
-            </Typography>
+
+          <Box
+          sx={{
+            display: "flex",
+            marginRight: "20px",
+            justifyContent: "center",
+            gap: 1,
+          }}
+        >
+          <img
+            alt="VT Foods PVT LTD Logo"
+            src="/assets/VT-logo.png"
+            style={{ height: "20px", width: 'auto' }}
+          />
+          <Typography
+          color="black"
+          fontSize={"14px"}
+          sx={{
+            textAlign: "center",
+          }}
+        >
+          © 2024 All Rights Reserved - vtfoods.com
+        </Typography>
+        </Box>
+
           </Grid>
         </Grid>
       </Box>
     </Container>
   </Box>
-);
+            };

@@ -87,7 +87,7 @@ const WhoAreSection = () => {
                   padding: "0 20px",
                 }}
               >
-                {/* <img
+                <img
                   alt=""
                   src="/assets/about-s.jpg"
                   style={{
@@ -96,8 +96,8 @@ const WhoAreSection = () => {
                     boxShadow: "rgb(237, 233, 255) 11px 10px 9px 0px",
                     borderRadius: "10px",
                   }}
-                /> */}
-                <HomeCta isAbout />
+                />
+                {/* <HomeCta isAbout /> */}
               </Box>
             </Grid>
           </Grid>

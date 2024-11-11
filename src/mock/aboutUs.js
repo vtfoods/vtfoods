@@ -1,43 +1,41 @@
 export const weAreData = [
-    "VT Foods Private Limited, established in 2020 and headquartered in Surat, Gujarat, is a distinguished software solutions provider specializing in mobile app development, web development, and offshore development teams. With a dedicated team of over 20 professionals, including skilled developers, UI/UX designers, and technology experts, we are committed to delivering top-notch, customized IT services.",
-    "Our strategic location offers a significant nearshoring advantage, facilitating efficient project management for our global clients. We offer a comprehensive range of services, including SaaS application development, full stack development, serverless development, web apps and website development, DevOps services, and UI/UX development.",
-    "At VT Foods Private Limited, our mission is to enhance user experiences, establish market authority, and elevate brand presence through innovative and feature-rich solutions. We are passionate about leveraging our industry expertise to align closely with client goals and deliver exceptional results that drive business success.",
+    `VT FOODS PRIVATE LIMITED was founded with a vision to provide high-quality dehydrated vegetables and spices that elevate flavors worldwide. Based in the agricultural heart of Gujarat, our company combines traditional expertise with modern technology to deliver the best. We’re passionate about sourcing and processing ingredients that meet the highest standards, ensuring our customers receive products that are flavorful, nutritious, and safe. We take pride in being a reliable partner for our clients across multiple industries, making us a leading name in dehydration and exports.`,
   ];
   
  export const aboutItems = [
-    {
-      img: "/assets/professional.png",
-      title: "Professional Working",
-    },
-    {
-      img: "/assets/quality-service.png",
-      title: "Quality Assurance",
-    },
-    {
-      img: "/assets/increase.png",
-      title: "Cost effective Services",
-    },
+    // {
+    //   img: "/assets/professional.png",
+    //   title: "Professional Working",
+    // },
+    // {
+    //   img: "/assets/quality-service.png",
+    //   title: "Quality Assurance",
+    // },
+    // {
+    //   img: "/assets/increase.png",
+    //   title: "Cost effective Services",
+    // },
   ];
 
   export const coreData = [
     {
-      title: "Innovation",
-      desc: "We embrace creativity and innovation to drive continuous improvement and stay ahead in a rapidly evolving technology landscape.",
+      title: "Quality",
+      desc: `We maintain the highest standards in all stages of production, from sourcing to processing and final delivery.`,
       img: "/assets/core5.png",
     },
     {
-      title: "Customer Centricity",
-      desc: "Our customers are at the heart of everything we do. We strive to understand their needs deeply and deliver solutions that exceed their expectations.",
+      title: "Integrity",
+      desc: `Our relationships are built on transparency, honesty, and respect for our customers, partners, and employees.`,
       img: "/assets/core2.png",
     },
     {
-      title: "Accountability",
-      desc: "We take ownership of our actions and decisions. Transparency and integrity guide our interactions with clients, partners, and colleagues.",
+      title: "Innovation",
+      desc: `By integrating the latest technologies, we constantly improve our processes to provide better products and services.`,
       img: "/assets/core3.png",
     },
     {
-      title: "Security",
-      desc: "  We prioritize the security and privacy of our clients' data and systems. Our robust measures ensure peace of mind and trust.",
+      title: "Sustainability",
+      desc: `We are committed to eco-friendly practices and supporting sustainable agriculture.`,
       img: "/assets/core6.png",
     },
     {
@@ -47,8 +45,8 @@ export const weAreData = [
     },
   
     {
-      title: "Fun and Enjoyment",
-      desc: " We foster a positive and enjoyable work environment where creativity thrives and teams are motivated to excel.",
+      title: "Customer Focus",
+      desc: `We work closely with our clients to understand and meet their unique needs, offering customized solutions that exceed expectations.`,
       img: "/assets/core1.png",
     },
     
@@ -58,12 +56,12 @@ export const weAreData = [
   export const goal = [
     {
       title: "Vision",
-      desc: "Our vision at VT Foods PVT LTD is to empower businesses through innovative technology solutions, driving their success in the digital era. We strive to be a leading provider of cutting-edge IT services, consistently delivering exceptional value to our clients and staying at the forefront of technological advancements.",
+      desc: `To be a global leader in the supply of premium dehydrated products, ensuring quality and safety, and fostering partnerships that create long-term value for our customers and growers.`,
       img: "/assets/visual.png",
     },
     {
       title: "Mission",
-      desc: "Our mission is to transform businesses by leveraging the power of technology. We are committed to understanding our clients' unique needs and challenges, and providing tailored IT solutions that address their specific requirements.",
+      desc: `VT FOODS PRIVATE LIMITED is dedicated to providing superior dehydrated ingredients by embracing innovation, sustainability, and quality. We strive to make the best natural ingredients accessible to businesses around the world, helping our partners deliver outstanding products to their customers.`,
       img: "/assets/target.png",
     },
   ];
