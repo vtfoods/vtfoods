@@ -75,13 +75,13 @@ const products = [
         <Card>
           <CardHeader
             title="Dehydrated Onion & Garlic Products"
-            sx={{ textAlign: 'center', color: 'black', py: 2, backgroundImage: 'url(/assets/table-cover.png)', backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', bgcolor: '#f5f3e7' }}
+            sx={{ textAlign: 'center', color: 'black', py: 2, backgroundImage: 'url(/assets/table-cover.png)', backgroundSize: 'contain', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', bgcolor: '#f5f3e7', borderBottom: 'solid' }}
           />
           <Divider />
           <Scrollbar>
             <Table sx={{ minWidth: 700 }}>
               <TableHead>
-                <TableRow sx={{ backgroundColor: 'grey.100' }}>
+                <TableRow sx={{ backgroundColor: 'grey.100',  borderBottom: 'solid' }}>
                   <TableCell sx={{ fontWeight: 'bold', color: 'text.secondary', textAlign: 'center', py: 1.5 }}>
                     Product Name
                   </TableCell>
