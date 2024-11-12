@@ -12,6 +12,8 @@ import toast from "react-hot-toast";
 import * as Yup from "yup";
 import { useFormik } from "formik";
 import { sendForm } from "@emailjs/browser";
+import PhoneInput from "react-phone-input-2";
+import "react-phone-input-2/lib/style.css";
 
 export const ContactForm = (props) => {
   const handleSubmit = useCallback((event) => {
@@ -26,23 +28,17 @@ export const ContactForm = (props) => {
     message: "",
   };
 
-  const phoneRegExp =
-    /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/;
   const validationSchema = Yup.object({
     fname: Yup.string().min(3).max(15).required("Enter First Name"),
     lname: Yup.string().min(3).max(15).required("Enter Last Name"),
     email: Yup.string()
       .email("Enter Proper Email Address")
       .required("Enter Email Address"),
-    phone: Yup.string()
-      .max(11)
-      .required("Enter Phone Number")
-      .matches(phoneRegExp, "Phone number is not valid"),
+    phone: Yup.string().required("Enter Phone Number"),
     message: Yup.string().max(555).required("Enter Message"),
   });
 
   const onSubmit = (values, { resetForm }) => {
-    // e.preventDefault();
     sendForm(
       "service_qsv763i",
       "template_ot3yxx8",
@@ -59,11 +55,6 @@ export const ContactForm = (props) => {
         console.error("Error sending email:", error);
       });
   };
-
-  // const validate = () => {
-
-  //   return fname.length & lname.length & email.length & phone.length & message.length
-  // };
 
   const formik = useFormik({
     initialValues,
@@ -138,16 +129,23 @@ export const ContactForm = (props) => {
             </FormLabel>
           </Grid>
           <Grid item xs={12} sm={8}>
-            <TextField
-              error={!!(formik.touched.phone && formik.errors.phone)}
-              fullWidth
-              helperText={formik.touched.phone && formik.errors.phone}
-              label="Phone Number"
-              name="phone"
-              onBlur={formik.handleBlur}
-              onChange={formik.handleChange}
+            <PhoneInput
+              country={"us"}
               value={formik.values.phone}
+              onChange={(phone) => formik.setFieldValue("phone", phone)}
+              inputProps={{
+                name: "phone",
+                required: true,
+              }}
+              inputStyle={{ width: "100%" }}
+              containerStyle={{ width: "100%" }}
+              isValid={formik.errors.phone ? false : true}
             />
+            {formik.touched.phone && formik.errors.phone && (
+              <Typography color="error" variant="caption">
+                {formik.errors.phone}
+              </Typography>
+            )}
           </Grid>
         </Grid>
 
