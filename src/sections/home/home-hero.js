@@ -18,7 +18,7 @@ export const HomeHero = () => {
       <Seo title="Home" />
       <Box sx={{ overflowX: "hidden" }}>
         <HeroSection />
-        <ServiceSection />
+        {/* <ServiceSection /> */}
         {/* <TechologySection /> */}
         <ProtfoliTabs isHome />
         <HomeCta />

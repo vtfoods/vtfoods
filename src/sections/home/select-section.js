@@ -18,7 +18,7 @@ import { selectData } from "src/mock/select";
 const SelectSection = () => {
   return (
     <Container maxWidth="xl">
-      <Box padding={{ lg: "0", xs: "50px 0", md: "50px 0" }}>
+      <Box padding={{ lg: "50px 0", xs: "50px 0", md: "50px 0" }}>
         <Grid
           container
           sx={{
@@ -77,20 +77,20 @@ const SelectSection = () => {
                   padding: "18px 0",
                 }}
               >
-                We strive to create a positive impact on all stakeholders
-                involved and empower our clients to reach new heights by
-                transforming their products into their best and most advanced
-                versions.
+                {`Choosing the right partner for high-quality dehydrated ingredients is essential. At VT FOODS PRIVATE LIMITED, we are committed to delivering excellence in every product and service we provide. Here’s why you can trust us with your ingredient needs:`}
               </Typography>
               <Typography>
                 <List>
                   {selectData.map((data, idx) => (
-                    <ListItem disablePadding key={idx}>
+                    <>
+                    <ListItem disablePadding key={idx} sx={{padding: '10px 0'}}>
                       <ListItemIcon>
                         <CheckIcon />
                       </ListItemIcon>
-                      <ListItemText key={data.id}>{data.label}</ListItemText>
+                      <Typography key={data.id} sx={{fontWeight: 'bold'}}>{data.label}</Typography>
                     </ListItem>
+                      <Typography key={data.id[idx]}>{data.description}</Typography>
+                      </>
                   ))}
                 </List>
               </Typography>

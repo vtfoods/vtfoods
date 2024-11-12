@@ -10,7 +10,9 @@ export const HomeCta = ({ isAbout, isSubPage }) => (
         : isSubPage
         ? "linear-gradient(to bottom, rgb(255 255 255 / 27%), rgb(227 219 255)), url(/assets/4940019.png)"
         : "linear-gradient(to bottom, rgb(255 255 255 / 27%), rgb(227 219 255)), url(/assets/bg-a.png);",
-
+      backgroundSize: "cover",
+      backgroundPosition: "top", 
+      backgroundRepeat: "no-repeat",
       py: "60px",
       overflow: "hidden",
     }}
