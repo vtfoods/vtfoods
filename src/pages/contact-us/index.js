@@ -181,7 +181,7 @@ const Page = () => {
                         <Link
                           color="white"
                           variant="subtitle1"
-                          href="https://wa.me/+919978136555"
+                          href="https://wa.me/+918080651693"
                           target="_blank"
                           sx={{
                             fontSize: "16px",
@@ -201,7 +201,7 @@ const Page = () => {
                               mr: 1,
                             }}
                           />{" "}
-                          <Typography>+91 99781 36555</Typography>
+                          <Typography>+91 80806 51693</Typography>
                         </Link>
                         <Link
                           color="white"

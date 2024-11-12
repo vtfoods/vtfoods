@@ -334,7 +334,7 @@ export const Footer = (props) => {
               <Link
                 color="white"
                 variant="subtitle1"
-                href="https://wa.me/+919978136555"
+                href="https://wa.me/+918080651693"
                 target="_blank"
                 sx={{
                   fontSize: "16px",
@@ -355,7 +355,7 @@ export const Footer = (props) => {
                     mr: 1,
                   }}
                 />{" "}
-                +91 99781 36555
+                +91 80806 51693
               </Link>
               <Link
                 color="white"

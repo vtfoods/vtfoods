@@ -293,7 +293,7 @@ function GetInTouch() {
           </Typography>
           <Link
             color="white"
-            href="https://wa.me/+919978136555"
+            href="https://wa.me/+918080651693"
             target="_blank"
           >
             <Box
