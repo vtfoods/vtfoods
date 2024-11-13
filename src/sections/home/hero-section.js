@@ -114,7 +114,7 @@ const HeroSection = () => {
               color="inherit"
               sx={{ my: 0, textAlign: "center", fontSize: "22px" }}
             >
-              We are a leading manufacturer and exporter of a wide range of dehydrated products including spices, pulses, grains, and more. Our products are sourced from the best farms and processed in our state-of-the-art facilities to ensure the highest quality and freshness.
+              We are a leading manufacturer and exporter of a wide range of Dehydrated Onion, Garlic, and Spices. Our products are sourced from the best farms and processed in our state-of-the-art facilities to ensure the highest quality and freshness.
             </Typography>
             <Stack
               alignItems="center"
