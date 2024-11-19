@@ -91,14 +91,14 @@ export const SettingsProvider = (props) => {
   const handleUpdate = useCallback((settings) => {
     setState((prevState) => {
       storeSettings({
-        colorPreset: prevState.colorPreset,
-        contrast: prevState.contrast,
-        direction: prevState.direction,
-        layout: prevState.layout,
-        navColor: prevState.navColor,
-        paletteMode: prevState.paletteMode,
-        responsiveFontSizes: prevState.responsiveFontSizes,
-        stretch: prevState.stretch,
+        colorPreset: initialSettings.colorPreset,
+        contrast: initialSettings.contrast,
+        direction: initialSettings.direction,
+        layout: initialSettings.layout,
+        navColor: initialSettings.navColor,
+        paletteMode: initialSettings.paletteMode,
+        responsiveFontSizes: initialSettings.responsiveFontSizes,
+        stretch: initialSettings.stretch,
         ...settings
       });
 
@@ -125,14 +125,14 @@ export const SettingsProvider = (props) => {
 
   const isCustom = useMemo(() => {
     return !isEqual(initialSettings, {
-      colorPreset: state.colorPreset,
-      contrast: state.contrast,
-      direction: state.direction,
-      layout: state.layout,
-      navColor: state.navColor,
-      paletteMode: state.paletteMode,
-      responsiveFontSizes: state.responsiveFontSizes,
-      stretch: state.stretch
+      colorPreset: initialSettings.colorPreset,
+      contrast: initialSettings.contrast,
+      direction: initialSettings.direction,
+      layout: initialSettings.layout,
+      navColor: initialSettings.navColor,
+      paletteMode: initialSettings.paletteMode,
+      responsiveFontSizes: initialSettings.responsiveFontSizes,
+      stretch: initialSettings.stretch
     });
   }, [state]);
 
