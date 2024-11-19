@@ -77,7 +77,7 @@ const App = (props) => {
                             colorPreset: settings.colorPreset,
                             contrast: settings.contrast,
                             direction: settings.direction,
-                            paletteMode: settings.paletteMode,
+                            paletteMode: "light",
                             responsiveFontSizes: settings.responsiveFontSizes,
                           });
 
